@@ -1,0 +1,15 @@
+[package]
+name = "dryad"
+version = "0.1.0"
+authors = ["James Laver <james.laver@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# druid = { git = "https://github.com/linebender/druid" }
+druid = { path = "../../forks/rust/druid/druid" }
+# druid-shell = { git = "https://github.com/linebender/druid" }
+druid-shell = { path = "../../forks/rust/druid/druid-shell" }
+# druid-derive = { git = "https://github.com/linebender/druid" }
+druid-derive = { path = "../../forks/rust/druid/druid-derive" }
